@@ -1,5 +1,5 @@
-import logo from "./components/images/logo.png"
-import group from "./components/images/Group 1.png"
+import logo from "./images/logo.png"
+import group from "./images/Group 1.png"
 import './App.css';
 import { TextInput } from 'react-materialize';
 import GoogleLogin from "react-google-login";
