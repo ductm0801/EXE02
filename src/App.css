@@ -1,4 +1,6 @@
 .login-button{
+  margin-left: 10px;
+  position: absolute;
   align-items: center;
   background-clip: padding-box;
   background-color: #FF8B00;
@@ -14,7 +16,7 @@
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 0;
+  
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -24,7 +26,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: auto;
+  width: 100%;
 }
 
 .button-5:hover,
@@ -60,10 +62,12 @@
   overflow: auto;
 }
 .form{
-  margin-top: 100px;
-  padding: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+  padding: 220px;
   background-color: #fee8b0;
   border-radius: 16px;
+
 
 }
 .chaomung{
@@ -71,4 +75,23 @@
   text-align: center;
   color: black;
 }
+.wlogo{
+  width: 177px;
+  height: 189px;
+  margin-top: 400px;
+  margin-left: 350px;
+}
+.keodai{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+ .center {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
 
