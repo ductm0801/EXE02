@@ -93,5 +93,44 @@
     margin-right: auto;
     margin-bottom: 60px;
   }
+  .navbar img {
+    height: 50px;
+    width: auto;
+    justify-self: start;
+    margin-top: 10px;
+    
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-self: end;
+   
+  }
+  
+  .nav-item a {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+    
+  }
+ .nav-wrapper{
+  width: 1440px;
+  height: 80px;
+  flex-direction: column;
+  
+  align-items: center;
+  flex-shrink: 0;
+ }
+ .navbar{
+  border: 1px solid #000;
+  background: #FFA500;
+ }
+ 
+
+
+
 
 
